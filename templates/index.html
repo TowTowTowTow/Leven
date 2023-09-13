@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Levenshtein Distance Calculator</title>
+</head>
+<body>
+    <h1>Levenshtein Distance Calculator</h1>
+    
+    <label for="string1">String 1:</label>
+    <input type="text" id="string1" placeholder="Enter a string">
+    
+    <label for="string2">String 2:</label>
+    <input type="text" id="string2" placeholder="Enter another string">
+    
+    <button id="calculateButton">Calculate Distance</button>
+    
+    <p>Levenshtein Distance: <span id="result"></span></p>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
